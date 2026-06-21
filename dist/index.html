@@ -7,16 +7,17 @@
   <meta name="description" content="Portafolio profesional de Ana Isabel Navarro Jiménez - Desarrolladora Full Stack certificada en AWS Cloud e IA Generativa.">
   <title>Ana Isabel Navarro Jiménez | Full Stack Developer</title>
   
-  <!-- Google Fonts: Inter (body), JetBrains Mono (headings/code/labels) -->
+  <!-- Google Fonts: Inter (body), Space Grotesk (headings/UI), JetBrains Mono (code/labels) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
   
-  <!-- Stylesheets -->
+  <!-- Stylesheets -->
   
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-BOVsZ-Bi.css">
+  <script type="module" crossorigin src="/assets/index-VeIuO5FK.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DpJLFKA0.css">
 </head>
 <body class="bg-white text-slate-800 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100 font-sans">
 
@@ -33,8 +34,8 @@
       <!-- Desktop Nav Menu -->
       <ul class="hidden md:flex items-center gap-8 font-medium">
         <li><a href="#about" class="text-slate-600 hover:text-blue-700 dark:text-slate-300 dark:hover:text-blue-400 transition-colors">Sobre Mí</a></li>
-        <li><a href="#projects" class="text-slate-600 hover:text-blue-700 dark:text-slate-300 dark:hover:text-blue-400 transition-colors">Proyectos</a></li>
         <li><a href="#experience" class="text-slate-600 hover:text-blue-700 dark:text-slate-300 dark:hover:text-blue-400 transition-colors">Experiencia</a></li>
+        <li><a href="#projects" class="text-slate-600 hover:text-blue-700 dark:text-slate-300 dark:hover:text-blue-400 transition-colors">Proyectos</a></li>
         <li><a href="#education" class="text-slate-600 hover:text-blue-700 dark:text-slate-300 dark:hover:text-blue-400 transition-colors">Educación</a></li>
         <li><a href="#skills" class="text-slate-600 hover:text-blue-700 dark:text-slate-300 dark:hover:text-blue-400 transition-colors">Habilidades</a></li>
         <li><a href="#contact" class="text-slate-600 hover:text-blue-700 dark:text-slate-300 dark:hover:text-blue-400 transition-colors">Contacto</a></li>
@@ -55,15 +56,15 @@
       </div>
     </nav>
 
-    <!-- Mobile Navigation Drawer -->
-    <div id="mobile-menu" class="fixed inset-0 top-[65px] bg-white/95 dark:bg-slate-950/95 backdrop-blur-md z-40 transform translate-x-full transition-transform duration-300 md:hidden border-t border-slate-100 dark:border-slate-900">
-      <ul class="flex flex-col items-center justify-center h-full gap-8 text-xl font-bold font-outfit">
-        <li><a href="#about" class="mobile-nav-link text-slate-800 dark:text-slate-200 hover:text-blue-700 dark:hover:text-blue-400">Sobre Mí</a></li>
-        <li><a href="#projects" class="mobile-nav-link text-slate-800 dark:text-slate-200 hover:text-blue-700 dark:hover:text-blue-400">Proyectos</a></li>
-        <li><a href="#experience" class="mobile-nav-link text-slate-800 dark:text-slate-200 hover:text-blue-700 dark:hover:text-blue-400">Experiencia</a></li>
-        <li><a href="#education" class="mobile-nav-link text-slate-800 dark:text-slate-200 hover:text-blue-700 dark:hover:text-blue-400">Educación</a></li>
-        <li><a href="#skills" class="mobile-nav-link text-slate-800 dark:text-slate-200 hover:text-blue-700 dark:hover:text-blue-400">Habilidades</a></li>
-        <li><a href="#contact" class="mobile-nav-link text-slate-800 dark:text-slate-200 hover:text-blue-700 dark:hover:text-blue-400">Contacto</a></li>
+    <!-- Mobile Navigation Dropdown -->
+    <div id="mobile-menu" class="md:hidden">
+      <ul class="flex flex-col gap-1 text-base font-semibold font-outfit">
+        <li><a href="#about" class="mobile-nav-link block py-2 px-3 rounded-lg hover:bg-blue-50 hover:text-blue-700 dark:hover:bg-blue-950/50 dark:hover:text-blue-400 transition-colors text-slate-800 dark:text-slate-200">Sobre Mí</a></li>
+        <li><a href="#experience" class="mobile-nav-link block py-2 px-3 rounded-lg hover:bg-blue-50 hover:text-blue-700 dark:hover:bg-blue-950/50 dark:hover:text-blue-400 transition-colors text-slate-800 dark:text-slate-200">Experiencia</a></li>
+        <li><a href="#projects" class="mobile-nav-link block py-2 px-3 rounded-lg hover:bg-blue-50 hover:text-blue-700 dark:hover:bg-blue-950/50 dark:hover:text-blue-400 transition-colors text-slate-800 dark:text-slate-200">Proyectos</a></li>
+        <li><a href="#education" class="mobile-nav-link block py-2 px-3 rounded-lg hover:bg-blue-50 hover:text-blue-700 dark:hover:bg-blue-950/50 dark:hover:text-blue-400 transition-colors text-slate-800 dark:text-slate-200">Educación</a></li>
+        <li><a href="#skills" class="mobile-nav-link block py-2 px-3 rounded-lg hover:bg-blue-50 hover:text-blue-700 dark:hover:bg-blue-950/50 dark:hover:text-blue-400 transition-colors text-slate-800 dark:text-slate-200">Habilidades</a></li>
+        <li><a href="#contact" class="mobile-nav-link block py-2 px-3 rounded-lg hover:bg-blue-50 hover:text-blue-700 dark:hover:bg-blue-950/50 dark:hover:text-blue-400 transition-colors text-slate-800 dark:text-slate-200">Contacto</a></li>
       </ul>
     </div>
   </header>
@@ -90,11 +91,6 @@
     <div class="max-w-5xl mx-auto px-6 text-center md:text-left flex flex-col md:flex-row items-center gap-12">
       <!-- Text content -->
       <div class="flex-1 space-y-6 animate-fade-in">
-        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-700 dark:bg-blue-950/30 dark:border-blue-900/50 dark:text-blue-400 font-mono text-sm font-semibold tracking-wide">
-          <span class="w-2 h-2 rounded-full bg-blue-600 dark:bg-blue-400 animate-pulse"></span>
-          Desarrolladora Full Stack
-        </div>
-        
         <h2 class="text-xl sm:text-2xl font-semibold text-slate-600 dark:text-slate-400 font-outfit">
           ¡Hola! 👋
         </h2>
@@ -105,7 +101,7 @@
         </h1>
         
         <p class="max-w-xl text-lg md:text-xl text-slate-600 dark:text-slate-300 font-normal leading-relaxed">
-          Certificada en <span class="font-semibold text-slate-900 dark:text-white">AWS Cloud</span> e <span class="font-semibold text-slate-900 dark:text-white">IA Generativa</span>. Especializada en la integración de sistemas, consumo de APIs y modelado de bases de datos relacionales, combinando un sólido bagaje técnico-sanitario con la arquitectura de software.
+          Especializada en desarrollo **Full Stack con JavaScript y Node.js**, consumo de APIs y arquitecturas Cloud (AWS). Enfocada en construir soluciones de software eficientes, limpias y altamente escalables.
         </p>
 
         <!-- CTAs -->
@@ -145,61 +141,182 @@
   </section>
 
   <!-- About Section -->
-  <section id="about" class="py-24 bg-slate-50 dark:bg-slate-900/30 border-y border-slate-100 dark:border-slate-900">
+  <section id="about" class="py-16 bg-slate-50 dark:bg-slate-900/30 border-y border-slate-100 dark:border-slate-900">
     <div class="max-w-5xl mx-auto px-6">
-      <div class="text-center max-w-2xl mx-auto mb-16">
+      <div class="text-center max-w-2xl mx-auto mb-10">
         <h2 class="text-3xl font-bold tracking-tight font-outfit text-slate-900 dark:text-white sm:text-4xl">Sobre Mí</h2>
         <div class="w-16 h-1.5 bg-blue-700 dark:bg-blue-500 mx-auto mt-4 rounded-full"></div>
       </div>
 
-      <div class="grid md:grid-cols-5 gap-12 items-center">
-        <!-- Biography text -->
-        <div class="md:col-span-3 space-y-6 text-slate-600 dark:text-slate-300 text-lg leading-relaxed">
-          <p>
-            ¡Hola! Soy <strong class="text-slate-900 dark:text-white">Ana Isabel</strong>, desarrolladora de software y especialista en entornos cloud. Mi trayectoria profesional es singular: comencé mi carrera en el sector sanitario y del control de calidad, desempeñándome como Técnico de Laboratorio y Técnico de Diagnóstico por Imagen.
-          </p>
-          <p>
-            Esta experiencia en laboratorios y hospitales me inculcó una meticulosidad extrema, un riguroso apego al cumplimiento de normativas de calidad y una gran adaptabilidad ante situaciones críticas de alta responsabilidad.
-          </p>
-          <p>
-            Decidí canalizar mi pasión por la resolución de problemas hacia la tecnología, completando mi formación superior en <strong class="text-slate-900 dark:text-white">Desarrollo de Aplicaciones Web (DAW)</strong>. Hoy combino mi bagaje sanitario de análisis metódico con el diseño de arquitecturas de software limpias y escalables, con especial foco en integraciones RESTful y desarrollo Cloud en AWS.
-          </p>
+      <div class="grid md:grid-cols-5 gap-8 items-stretch">
+        <!-- Biography Card -->
+        <div class="md:col-span-3 bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xl relative overflow-hidden flex flex-col justify-between">
+          <div class="absolute -left-10 -bottom-10 w-40 h-40 bg-blue-500/5 dark:bg-blue-500/10 rounded-full blur-2xl"></div>
+          <div>
+            <h3 class="font-outfit font-bold text-xl text-slate-900 dark:text-white mb-4 flex items-center gap-2">
+              <i data-lucide="user" class="text-blue-700 dark:text-blue-500 w-6 h-6"></i>
+              Biografía Profesional
+            </h3>
+            <div class="space-y-3 relative z-10">
+              <p class="biography-text">
+                ¡Hola! Soy <strong class="text-slate-900 dark:text-white">Ana Isabel</strong>, desarrolladora de software Full Stack especializada en JavaScript (Node.js) y tecnologías Cloud (AWS). Mi trayectoria previa de más de 4 años en el sector sanitario y control de calidad me ha dotado de rigor analítico, minuciosidad extrema y gran capacidad para resolver problemas bajo presión. Tras completar mi formación en <strong class="text-slate-900 dark:text-white">Desarrollo de Aplicaciones Web (DAW)</strong>, hoy combino esta precisión metodológica con el desarrollo de software para construir aplicaciones limpias, eficientes y altamente escalables.
+              </p>
+            </div>
+          </div>
         </div>
 
         <!-- Health to Tech Synergy card -->
-        <div class="md:col-span-2 bg-white dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xl relative overflow-hidden">
+        <div class="md:col-span-2 bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xl relative overflow-hidden flex flex-col justify-between">
           <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-blue-500/5 dark:bg-blue-500/10 rounded-full blur-2xl"></div>
           
-          <h3 class="font-outfit font-bold text-xl text-slate-900 dark:text-white mb-6 flex items-center gap-2">
-            <i data-lucide="shield-check" class="text-blue-700 dark:text-blue-500 w-6 h-6"></i>
-            Mi Sinergia Profesional
-          </h3>
+          <div>
+            <h3 class="font-outfit font-bold text-xl text-slate-900 dark:text-white mb-4 flex items-center gap-2">
+              <i data-lucide="shield-check" class="text-blue-700 dark:text-blue-500 w-6 h-6"></i>
+              Sinergia Profesional
+            </h3>
 
-          <ul class="space-y-4 text-base text-slate-600 dark:text-slate-300">
-            <li class="flex gap-3">
-              <i data-lucide="check" class="text-green-500 w-5 h-5 shrink-0 mt-0.5"></i>
-              <span><strong>Precisión Diagnóstica:</strong> Aplicada a la depuración de código de software complejo.</span>
-            </li>
-            <li class="flex gap-3">
-              <i data-lucide="check" class="text-green-500 w-5 h-5 shrink-0 mt-0.5"></i>
-              <span><strong>Control de Calidad:</strong> Garantía de pruebas automatizadas y código robusto.</span>
-            </li>
-            <li class="flex gap-3">
-              <i data-lucide="check" class="text-green-500 w-5 h-5 shrink-0 mt-0.5"></i>
-              <span><strong>Entorno Clínico Crítico:</strong> Trabajo bajo presión y rápida toma de decisiones.</span>
-            </li>
-            <li class="flex gap-3">
-              <i data-lucide="check" class="text-green-500 w-5 h-5 shrink-0 mt-0.5"></i>
-              <span><strong>Metodología Ágil:</strong> Adaptación constante mediante Scrum y comunicación asíncrona.</span>
-            </li>
-          </ul>
+            <ul class="space-y-3 text-sm text-slate-600 dark:text-slate-300 relative z-10">
+              <li class="flex gap-3">
+                <i data-lucide="check" class="text-green-500 w-5 h-5 shrink-0 mt-0.5"></i>
+                <span><strong>Precisión Diagnóstica:</strong> Depuración de código de software complejo.</span>
+              </li>
+              <li class="flex gap-3">
+                <i data-lucide="check" class="text-green-500 w-5 h-5 shrink-0 mt-0.5"></i>
+                <span><strong>Control de Calidad:</strong> Garantía de pruebas automatizadas y código robusto.</span>
+              </li>
+              <li class="flex gap-3">
+                <i data-lucide="check" class="text-green-500 w-5 h-5 shrink-0 mt-0.5"></i>
+                <span><strong>Entornos Críticos:</strong> Trabajo bajo presión y rápida toma de decisiones.</span>
+              </li>
+              <li class="flex gap-3">
+                <i data-lucide="check" class="text-green-500 w-5 h-5 shrink-0 mt-0.5"></i>
+                <span><strong>Metodologías Ágiles:</strong> Scrum, adaptabilidad y comunicación asíncrona.</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Experience Section -->
+  <section id="experience" class="py-24">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl font-bold tracking-tight font-outfit text-slate-900 dark:text-white sm:text-4xl">Trayectoria Profesional</h2>
+        <p class="mt-4 text-slate-500 dark:text-slate-400">Mi trayectoria técnica y cómo aplico mi experiencia previa de precisión en el desarrollo de software.</p>
+        <div class="w-16 h-1.5 bg-blue-700 dark:bg-blue-500 mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <!-- Experience Columns Layout -->
+      <div class="grid md:grid-cols-5 gap-12 items-start">
+        
+        <!-- Left Side: Development Experience (3/5 columns) -->
+        <div class="md:col-span-3 space-y-8">
+          <h3 class="font-outfit font-bold text-2xl text-slate-900 dark:text-white mb-6 flex items-center gap-2">
+            <i data-lucide="code-2" class="text-blue-700 dark:text-blue-500 w-6 h-6"></i>
+            Desarrollo de Software
+          </h3>
+          
+          <div class="space-y-6">
+            <!-- Plexus Tech -->
+            <div class="experience-card p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all">
+              <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+                <div>
+                  <h4 class="text-lg font-bold font-outfit text-slate-900 dark:text-white">Desarrolladora Junior</h4>
+                  <p class="text-slate-500 dark:text-slate-400 text-sm font-medium mt-0.5">Plexus Tech (REMOTO)</p>
+                </div>
+                <span class="text-xs font-mono font-semibold text-blue-700 dark:text-blue-400 shrink-0 mt-1">Octubre 2025 - Actualidad</span>
+              </div>
+              <ul class="space-y-2 mt-4 text-sm text-slate-600 dark:text-slate-300 pl-4 list-disc marker:text-blue-500">
+                <li><strong>Desarrollar e implementar</strong> soluciones lógicas a medida y automatizaciones de procesos mediante Appian (código SAIL), logrando optimizar la eficiencia operativa del software y reducir incidencias de rendimiento.</li>
+                <li><strong>Diseñar e integrar</strong> servicios y consumo de APIs RESTful para habilitar la sincronización de datos bidireccional y en tiempo real con sistemas externos de terceros.</li>
+                <li><strong>Gestionar</strong> el ciclo de vida completo de aplicaciones y <strong>documentar</strong> flujos técnicos detallados al colaborar activamente en células Scrum autogestionadas.</li>
+              </ul>
+            </div>
+
+            <!-- Freelance / Independent Projects -->
+            <div class="experience-card p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all">
+              <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+                <div>
+                  <h4 class="text-lg font-bold font-outfit text-slate-900 dark:text-white">Desarrolladora Full Stack (Proyectos Independientes)</h4>
+                  <p class="text-slate-500 dark:text-slate-400 text-sm font-medium mt-0.5">Autónoma / Proyectos DAW</p>
+                </div>
+                <span class="text-xs font-mono font-semibold text-blue-700 dark:text-blue-400 shrink-0 mt-1">Enero 2024 - Octubre 2025</span>
+              </div>
+              <ul class="space-y-2 mt-4 text-sm text-slate-600 dark:text-slate-300 pl-4 list-disc marker:text-blue-500">
+                <li><strong>Diseñar y desplegar</strong> aplicaciones web a medida para pequeños negocios, incluyendo plataformas de reservas y pasarelas de pago (como el proyecto <em>Catfeína</em>).</li>
+                <li><strong>Estructurar y modelar</strong> bases de datos relacionales robustas (MySQL, SQL) optimizando consultas y garantizando la integridad referencial de los datos.</li>
+                <li><strong>Contenerizar y configurar</strong> entornos locales de desarrollo utilizando Docker para asegurar la consistencia entre entornos y facilitar el despliegue continuo.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Transferable/Prior Experience (2/5 columns) -->
+        <div class="md:col-span-2 space-y-8">
+          <h3 class="font-outfit font-bold text-2xl text-slate-900 dark:text-white mb-6 flex items-center gap-2">
+            <i data-lucide="sparkles" class="text-blue-700 dark:text-blue-500 w-6 h-6"></i>
+            Sector Sanitario y Calidad
+          </h3>
+
+          <div class="experience-card p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-6">
+            <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+              Antes de mi transición al software, trabajé durante más de 4 años en el sector sanitario y de control de calidad. Esta trayectoria me dotó de una mentalidad meticulosa y orientada al detalle, crucial para el diseño de pruebas (QA), depuración y control de errores en aplicaciones web.
+            </p>
+
+            <div class="space-y-6 border-t border-slate-100 dark:border-slate-800 pt-6">
+              <!-- QC Smurfit -->
+              <div class="space-y-1">
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <h4 class="text-base font-bold font-outfit text-slate-900 dark:text-white">Técnico de Control de Calidad</h4>
+                    <p class="text-slate-500 dark:text-slate-400 text-xs mt-0.5">Smurfit Westrock</p>
+                  </div>
+                  <span class="text-xs font-mono font-semibold text-slate-400 dark:text-slate-500 shrink-0 mt-1">2023 - 2025</span>
+                </div>
+                <p class="text-slate-600 dark:text-slate-400 text-xs mt-1.5 leading-normal">
+                  <strong>Optimizar procesos y garantizar</strong> el cumplimiento de normativas de seguridad mediante la gestión y coordination del personal de producción, asegurando la calidad del producto.
+                </p>
+              </div>
+
+              <!-- Lab Tech Quirónsalud -->
+              <div class="space-y-1">
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <h4 class="text-base font-bold font-outfit text-slate-900 dark:text-white">Técnico de Laboratorio Clínico</h4>
+                    <p class="text-slate-500 dark:text-slate-400 text-xs mt-0.5">H. Quirónsalud</p>
+                  </div>
+                  <span class="text-xs font-mono font-semibold text-slate-400 dark:text-slate-500 shrink-0 mt-1">2022 - 2023</span>
+                </div>
+                <p class="text-slate-600 dark:text-slate-400 text-xs mt-1.5 leading-normal">
+                  <strong>Asegurar la integridad</strong> de los datos en el análisis de muestras biológicas y garantizar la trazabilidad mediante sistemas informáticos LIMS.
+                </p>
+              </div>
+
+              <!-- Radiology Valme -->
+              <div class="space-y-1">
+                <div class="flex items-start justify-between gap-4">
+                  <div>
+                    <h4 class="text-base font-bold font-outfit text-slate-900 dark:text-white">Técnico de Imagen para el Diagnóstico</h4>
+                    <p class="text-slate-500 dark:text-slate-400 text-xs mt-0.5">H. Virgen de Valme</p>
+                  </div>
+                  <span class="text-xs font-mono font-semibold text-slate-400 dark:text-slate-500 shrink-0 mt-1">2021 - 2022</span>
+                </div>
+                <p class="text-slate-600 dark:text-slate-400 text-xs mt-1.5 leading-normal">
+                  <strong>Operar equipos</strong> de alta tecnología (Radiología Convencional, Mamografía, TAC, RM) en entornos clínicos críticos bajo alta presión.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- Projects Section -->
-  <section id="projects" class="py-24">
+  <section id="projects" class="py-24 bg-slate-50 dark:bg-slate-900/30 border-y border-slate-100 dark:border-slate-900">
     <div class="max-w-5xl mx-auto px-6">
       <div class="text-center max-w-2xl mx-auto mb-16">
         <h2 class="text-3xl font-bold tracking-tight font-outfit text-slate-900 dark:text-white sm:text-4xl">Proyectos Destacados</h2>
@@ -316,111 +433,7 @@
         </div>
       </div>
     </div>
-  </section>  <!-- Experience Section -->
-  <section id="experience" class="py-24 bg-slate-50 dark:bg-slate-900/30 border-y border-slate-100 dark:border-slate-900">
-    <div class="max-w-5xl mx-auto px-6">
-      <div class="text-center max-w-2xl mx-auto mb-16">
-        <h2 class="text-3xl font-bold tracking-tight font-outfit text-slate-900 dark:text-white sm:text-4xl">Trayectoria Profesional</h2>
-        <p class="mt-4 text-slate-500 dark:text-slate-400">Mi trayectoria técnica y cómo aplico mi experiencia previa de precisión en el desarrollo de software.</p>
-        <div class="w-16 h-1.5 bg-blue-700 dark:bg-blue-500 mx-auto mt-4 rounded-full"></div>
-      </div>
-
-      <!-- Experience Columns Layout -->
-      <div class="grid md:grid-cols-5 gap-12 items-start">
-        
-        <!-- Left Side: Development Experience (3/5 columns) -->
-        <div class="md:col-span-3 space-y-8">
-          <h3 class="font-outfit font-bold text-2xl text-slate-900 dark:text-white mb-6 flex items-center gap-2">
-            <i data-lucide="code-2" class="text-blue-700 dark:text-blue-500 w-6 h-6"></i>
-            Desarrollo de Software
-          </h3>
-          
-          <div class="space-y-6">
-            <!-- Plexus Tech -->
-            <div class="experience-card p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all">
-              <span class="text-xs font-mono font-semibold text-blue-700 dark:text-blue-400">Octubre 2025 - Actualidad</span>
-              <h4 class="text-lg font-bold font-outfit text-slate-900 dark:text-white mt-1">Desarrolladora Junior</h4>
-              <p class="text-slate-500 dark:text-slate-400 text-sm font-medium">Plexus Tech (REMOTO)</p>
-              <ul class="space-y-2 mt-4 text-sm text-slate-600 dark:text-slate-300 pl-4 list-disc marker:text-blue-500">
-                <li><strong>Desarrollar e implementar</strong> soluciones lógicas a medida y automatizaciones de procesos mediante Appian (código SAIL), logrando optimizar la eficiencia operativa del software y reducir incidencias de rendimiento.</li>
-                <li><strong>Diseñar e integrar</strong> servicios y consumo de APIs RESTful para habilitar la sincronización de datos bidireccional y en tiempo real con sistemas externos de terceros.</li>
-                <li><strong>Gestionar</strong> el ciclo de vida completo de aplicaciones y <strong>documentar</strong> flujos técnicos detallados al colaborar activamente en células Scrum autogestionadas.</li>
-              </ul>
-            </div>
-
-            <!-- Freelance / Independent Projects -->
-            <div class="experience-card p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all">
-              <span class="text-xs font-mono font-semibold text-blue-700 dark:text-blue-400">Enero 2024 - Octubre 2025</span>
-              <h4 class="text-lg font-bold font-outfit text-slate-900 dark:text-white mt-1">Desarrolladora Full Stack (Proyectos Independientes)</h4>
-              <p class="text-slate-500 dark:text-slate-400 text-sm font-medium">Autónoma / Proyectos DAW</p>
-              <ul class="space-y-2 mt-4 text-sm text-slate-600 dark:text-slate-300 pl-4 list-disc marker:text-blue-500">
-                <li><strong>Diseñar y desplegar</strong> aplicaciones web a medida para pequeños negocios, incluyendo plataformas de reservas y pasarelas de pago (como el proyecto <em>Catfeína</em>).</li>
-                <li><strong>Estructurar y modelar</strong> bases de datos relacionales robustas (MySQL, SQL) optimizando consultas y garantizando la integridad referencial de los datos.</li>
-                <li><strong>Contenerizar y configurar</strong> entornos locales de desarrollo utilizando Docker para asegurar la consistencia entre entornos y facilitar el despliegue continuo.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right Side: Transferable/Prior Experience (2/5 columns) -->
-        <div class="md:col-span-2 space-y-8">
-          <h3 class="font-outfit font-bold text-2xl text-slate-900 dark:text-white mb-6 flex items-center gap-2">
-            <i data-lucide="sparkles" class="text-blue-700 dark:text-blue-500 w-6 h-6"></i>
-            Sector Sanitario y Calidad
-          </h3>
-
-          <div class="experience-card p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-6">
-            <p class="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-              Antes de mi transición al software, trabajé durante más de 4 años en el sector sanitario y de control de calidad. Esta trayectoria me dotó de una mentalidad meticulosa y orientada al detalle, crucial para el diseño de pruebas (QA), depuración y control de errores en aplicaciones web.
-            </p>
-
-            <div class="space-y-6 border-t border-slate-100 dark:border-slate-800 pt-6">
-              <!-- QC Smurfit -->
-              <div class="space-y-1">
-                <div class="flex items-center justify-between">
-                  <span class="text-xs font-mono font-semibold text-slate-400">2023 - 2025</span>
-                  <span class="px-2 py-0.5 text-[10px] font-semibold text-blue-700 bg-blue-50 dark:bg-blue-950/30 dark:text-blue-400 rounded-full font-mono">Calidad</span>
-                </div>
-                <h4 class="text-base font-bold font-outfit text-slate-900 dark:text-white">Técnico de Control de Calidad</h4>
-                <p class="text-slate-500 dark:text-slate-400 text-xs">Smurfit Westrock</p>
-                <p class="text-slate-600 dark:text-slate-400 text-xs mt-1.5 leading-normal">
-                  <strong>Optimizar procesos y garantizar</strong> el cumplimiento de normativas de seguridad mediante la gestión y coordinación del personal de producción, asegurando la calidad del producto.
-                </p>
-              </div>
-
-              <!-- Lab Tech Quirónsalud -->
-              <div class="space-y-1">
-                <div class="flex items-center justify-between">
-                  <span class="text-xs font-mono font-semibold text-slate-400">2022 - 2023</span>
-                  <span class="px-2 py-0.5 text-[10px] font-semibold text-indigo-700 bg-indigo-50 dark:bg-indigo-950/30 dark:text-indigo-400 rounded-full font-mono">Datos</span>
-                </div>
-                <h4 class="text-base font-bold font-outfit text-slate-900 dark:text-white">Técnico de Laboratorio Clínico</h4>
-                <p class="text-slate-500 dark:text-slate-400 text-xs">H. Quirónsalud</p>
-                <p class="text-slate-600 dark:text-slate-400 text-xs mt-1.5 leading-normal">
-                  <strong>Asegurar la integridad</strong> de los datos en el análisis de muestras biológicas y garantizar la trazabilidad mediante sistemas informáticos LIMS.
-                </p>
-              </div>
-
-              <!-- Radiology Valme -->
-              <div class="space-y-1">
-                <div class="flex items-center justify-between">
-                  <span class="text-xs font-mono font-semibold text-slate-400">2021 - 2022</span>
-                  <span class="px-2 py-0.5 text-[10px] font-semibold text-green-700 bg-green-50 dark:bg-green-950/30 dark:text-green-400 rounded-full font-mono">Tecnología</span>
-                </div>
-                <h4 class="text-base font-bold font-outfit text-slate-900 dark:text-white">Técnico de Imagen para el Diagnóstico</h4>
-                <p class="text-slate-500 dark:text-slate-400 text-xs">H. Virgen de Valme</p>
-                <p class="text-slate-600 dark:text-slate-400 text-xs mt-1.5 leading-normal">
-                  <strong>Operar equipos</strong> de alta tecnología (Radiología Convencional, Mamografía, TAC, RM) en entornos clínicos críticos bajo alta presión.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
   </section>
-
 
   <!-- Education & Certifications -->
   <section id="education" class="py-24">
@@ -662,13 +675,14 @@
   <!-- Footer -->
   <footer class="py-12 border-t border-slate-100 dark:border-slate-900 bg-slate-50 dark:bg-slate-950 text-center text-slate-500 dark:text-slate-400 text-sm">
     <div class="max-w-5xl mx-auto px-6 space-y-4">
-      <p class="font-outfit font-semibold text-slate-800 dark:text-white">Ana Isabel Navarro Jiménez | Full Stack Developer</p>
-      <p>
-        © 2026. Todos los derechos reservados. Diseñado con ❤️ inspirado en <a href="https://ryanfitzgerald.github.io/devportfolio/" target="_blank" rel="noopener noreferrer" class="underline text-blue-700 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-500">devportfolio</a> de Ryan Fitzgerald.
+      <p class="font-outfit font-bold text-slate-900 dark:text-white text-base">&lt;Ana Isabel /&gt;</p>
+      <p class="text-xs tracking-wider uppercase font-mono text-slate-400 dark:text-slate-500">JavaScript • Node.js • Arquitectura Cloud • Desarrollo Full Stack</p>
+      <div class="w-8 h-0.5 bg-blue-700 dark:bg-blue-500 mx-auto rounded-full my-2"></div>
+      <p class="text-xs">
+        © 2026 Ana Isabel Navarro Jiménez. Todos los derechos reservados. Diseñado y desarrollado de forma personalizada.
       </p>
     </div>
   </footer>
-
-  <script src="/script.js"></script>
+
 </body>
 </html>

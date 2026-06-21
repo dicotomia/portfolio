@@ -24,10 +24,10 @@ menuToggle.addEventListener('click', () => {
   isMenuOpen = !isMenuOpen;
   
   if (isMenuOpen) {
-    mobileMenu.classList.remove('translate-x-full');
+    mobileMenu.classList.add('open');
     menuToggle.innerHTML = '<i data-lucide="x" class="w-5 h-5"></i>';
   } else {
-    mobileMenu.classList.add('translate-x-full');
+    mobileMenu.classList.remove('open');
     menuToggle.innerHTML = '<i data-lucide="menu" class="w-5 h-5"></i>';
   }
   lucide.createIcons(); // Redraw Lucide icon
@@ -36,7 +36,7 @@ menuToggle.addEventListener('click', () => {
 // Close mobile menu when clicking a link
 document.querySelectorAll('.mobile-nav-link').forEach(link => {
   link.addEventListener('click', () => {
-    mobileMenu.classList.add('translate-x-full');
+    mobileMenu.classList.remove('open');
     menuToggle.innerHTML = '<i data-lucide="menu" class="w-5 h-5"></i>';
     isMenuOpen = false;
     lucide.createIcons();
